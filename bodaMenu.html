@@ -8,7 +8,22 @@
 <body>
     <h1>EXAMEN</h1>
     <form action="bodaMenu.php" method="POST">
+        <p><h2>Entrantes</h2></p>
+        <label for="jamon"><input type="checkbox" id="jamon" name="entrantes[]" value="jamon">Jamón</input></label><br/>
+        <label for="ensalada"><input type="checkbox" id="ensalada" name="entrantes[]" value="ensalada">Ensalada</input></label><br/>
+        <label for="croquetas"><input type="checkbox" id="croquetas" name="entrantes[]" value="croquetas">Croquetas</input></label><br/>
+        <label for="quesos"><input type="checkbox" id="quesos" name="entrantes[]" value="quesos">Quesos</input></label><br/>
+        <label for="gazpacho"><input type="checkbox" id="gazpacho" name="entrantes[]" value="gazpacho">Gazpacho</input></label><br/>
 
+        <label for="principales"><h2>Principales</h2></label><br/>
+        <select id="principales" name="principales">
+            <option value="solomillo">Solomillo</option>
+            <option value="lubina">Lubina</option>
+            <option value="risotto">Risotto</option>
+            <option value="paella">Paella</option>
+        </select><br/>
+
+        
     </form>
 </body>
 </html>
